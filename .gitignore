@@ -1,0 +1,16 @@
+# Ignore system and config files
+*.log
+*.tmp
+*.cache
+.bash_history
+.gitconfig
+.condarc
+.anaconda/
+.arduinoIDE/
+.vscode/
+
+# Ignore notebooks and node files if not needed
+*.ipynb
+node_modules/
+package-lock.json
+package.json
