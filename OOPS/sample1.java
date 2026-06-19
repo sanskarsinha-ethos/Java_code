@@ -6,6 +6,12 @@ public class sample1 {
         System.out.println(p1.color);
         p1.setTip(4);
         System.out.println(p1.tip);
+
+        BankAccount b1= new BankAccount();
+        b1.Username=("Sanskar");
+       // b1.Password=("Ethos");
+       b1.setPassword("abcd");
+
     }
 }
 
@@ -22,7 +28,16 @@ class Pen {
         tip = newTip;
     }
 }
+class BankAccount{
+    public String Username;
+    private String Password;
+    public void setPassword(String newPass){
+        Password=newPasss;
 
+    }
+
+
+}
 class Student {
     String name;
     int age;
