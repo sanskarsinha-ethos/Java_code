@@ -1,4 +1,4 @@
-public class getter_setter{
+ public class getter_setter{
     public static void main(String args[]) {
         Pen p1 = new Pen();
         p1.setColor("blue");
